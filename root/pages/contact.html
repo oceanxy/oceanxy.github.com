@@ -34,17 +34,21 @@
         <h3 class="form_title">联系我</h3>
 
         <form method="POST" action="http://formspree.io/xyzsyx@163.com" class="form">
-            <input type="hidden" name="_language" value="zh-CN" />//会调用谷歌api 导致发送邮件失败
-            <input type="hidden" name="_next" value="//www.xieyangogo.cn/root/pages/thanks.html" />
 
+            <input type="hidden" name="_next" value="//www.xieyangogo.cn/root/pages/thanks.html" />
+            <input type="hidden" name="_language" value="zh-CN" />
             <div class="message js-form-message"></div>
 
             <div class="form_group">
-                <input type="email" name="_replyto" placeholder="电子邮件" required>
+                <input name="name" placeholder="您怎么称呼" />
             </div>
 
             <div class="form_group">
-                <input type="tel" placeholder="联系电话" name="form_tel" class="form-input">
+                <input type="email" name="_replyto" placeholder="您的电子邮件" required>
+            </div>
+
+            <div class="form_group">
+                <input type="tel" placeholder="您的联系电话" name="form_tel" class="form-input">
             </div>
 
             <div class="form_group">
