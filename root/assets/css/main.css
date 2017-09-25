@@ -4993,7 +4993,7 @@ cite {
     }
 
     .body.re-scale {
-        animation: re-ani 0.5s cubic-bezier(0.82, 0.27, 0.79, 0.41) forwards;
+        animation: re-ani 0.5s cubic-bezier(0.54, 0.13, 0.83, 0.4) forwards;
     }
 
     @keyframes ani {
