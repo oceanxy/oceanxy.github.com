@@ -14,6 +14,8 @@ html {
     /* 2 */
     -webkit-text-size-adjust: 100%;
     /* 2 */
+    width: 100%;
+    height: 100%;
 }
 
 /* Sections
@@ -23,6 +25,39 @@ html {
  */
 body {
     margin: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.body {
+    position: relative;
+    display: block;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    background: #262626;
+}
+
+/*---滚动条大小--*/
+::-webkit-scrollbar,
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/*---滚动框背景样式--*/
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track {
+    background-color: dimgray;
+    -webkit-border-radius: 5px;
+}
+
+/*---滚动条默认显示样式--*/
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb {
+    background-color: darkgray;
+    -webkit-border-radius: 20px;
 }
 
 /**
@@ -564,6 +599,7 @@ template {
         transform: scale3d(1, 1, 1);
     }
 }
+
 @keyframes pulse {
     from {
         -webkit-transform: scale3d(1, 1, 1);
@@ -883,6 +919,7 @@ template {
         transform: none;
     }
 }
+
 @keyframes wobble {
     from {
         -webkit-transform: none;
@@ -2866,6 +2903,7 @@ template {
         transform: none;
     }
 }
+
 @keyframes rollIn {
     from {
         opacity: 0;
@@ -2895,6 +2933,7 @@ template {
         transform: translate3d(100%, 0, 0) rotate3d(0, 0, 1, 120deg);
     }
 }
+
 @keyframes rollOut {
     from {
         opacity: 1;
@@ -3959,7 +3998,7 @@ cite {
 .main_header nav a {
     color: #ffffff;
     text-decoration: none;
-    margin-left: 2rem;
+    margin-left: 1rem;
 }
 
 #banner {
@@ -4738,6 +4777,7 @@ cite {
     .chapters {
         padding: 2rem 0;
     }
+
     .chapters .chapter {
         width: 49%;
         margin: 0 0.5% 1% 0.5%;
@@ -4748,46 +4788,58 @@ cite {
     #banner .content {
         padding: 7rem 0;
     }
+
     #banner .content .title {
         font-size: 2.5rem;
         margin: 0 0 1rem 0;
     }
+
     #banner .content .sub_title {
         font-size: 1.35rem;
         line-height: 2rem;
         font-style: italic;
     }
+
     .chapters .chapter_inner .chapter_number {
         font-size: 0.7rem;
         margin: 0 0 0.5rem 0;
     }
+
     .chapters .chapter_inner .chapter_title {
         font-size: 1.35rem;
         margin: 0 0 0.3rem 0;
     }
+
     .pagination {
         padding: 2rem 0 6rem;
     }
+
     .pagination a {
         padding: 0.5rem 0.8rem;
         margin-left: 1rem;
     }
+
     .newsletter {
         padding: 2rem 0;
     }
+
     .newsletter .newsletter_title {
         font-size: 1.75rem;
         margin: 0 0 0.8rem;
     }
+
     .newsletter form {
         width: 550px;
     }
+
     .newsletter form label {
         font-size: 1.1rem;
     }
+
     .newsletter form .newsletter_box {
         padding: 2rem 0;
     }
+
     .newsletter form .email_input {
         width: 100%;
         padding: 1rem 2.5rem;
@@ -4795,33 +4847,41 @@ cite {
         border-radius: 2.5rem;
         font-size: 0.9rem;
     }
+
     .newsletter form .subscribe_btn {
         width: 110px;
         padding: 1.1rem;
         font-size: 0.7rem;
         top: 32px;
     }
+
     .social_footer {
         padding: 2rem 0;
     }
+
     .social_footer a {
         padding: 0.5rem 1rem;
         font-size: 1.35rem;
         -webkit-border-radius: 0.3rem;
         border-radius: 0.3rem;
     }
+
     .copyright {
         padding: 1rem 0;
     }
+
     .copyright p {
         font-size: 0.7rem;
     }
+
     .post header .post_meta {
         font-size: 0.8rem;
     }
+
     .post header .post_title {
         font-size: 1.6rem;
     }
+
     .author .author_social span {
         font-size: 0.7rem;
     }
@@ -4831,20 +4891,25 @@ cite {
     .chapters {
         padding: 2rem 0;
     }
+
     .chapters .chapter {
         width: 99%;
         margin: 0 0.5% 2% 0.5%;
     }
+
     .copyright p {
         font-size: 0.6rem;
     }
+
     blockquote {
         font-size: 1.1rem;
         padding-left: 1rem;
     }
+
     blockquote p {
         font-size: 1.1rem;
     }
+
     p {
         font-size: 1rem;
     }
@@ -4855,16 +4920,20 @@ cite {
         padding: 0.3rem 1rem;
         font-size: 0.5rem;
     }
+
     .post header .post_title {
         font-size: 1.3rem;
     }
+
     .post_footer .post_share {
         float: none;
         margin-bottom: 0.5rem;
     }
+
     .post_footer .post_tag {
         float: none;
     }
+
     .author .author_image {
         float: none;
         display: block;
@@ -4874,26 +4943,32 @@ cite {
         height: 100px;
         margin: 0 auto 1.75rem;
     }
+
     .author .author_info {
         padding: 0;
         text-align: center;
     }
+
     .author .author_info .author_title {
         font-size: 1.2rem;
         margin-top: 0;
     }
+
     .author .author_social span {
         display: inline-block;
         padding-right: 0.5rem;
         margin: 0 0.5rem 0.5rem 0;
     }
+
     .recent_box .recent_title {
         font-size: 1.3rem;
     }
+
     .recent_box .recent_list .recent_item {
         width: 100%;
         margin: 0 0 0.5rem;
     }
+
     .social_footer a {
         padding: 0.3rem 0.8rem;
         font-size: 1.10rem;
@@ -4905,8 +4980,77 @@ cite {
         padding: 0.1rem 0.8rem;
         font-size: 0.3rem;
     }
+
     .post header .post_title {
         padding: 0.8rem;
         font-size: 1.2rem;
     }
+}
+
+@media screen and (max-width: 480px) {
+    .body.scale {
+        animation: ani 1s cubic-bezier(0.1, 0.99, 0.43, 1) forwards;
+    }
+
+    .body.re-scale {
+        animation: re-ani 0.5s cubic-bezier(0.82, 0.27, 0.79, 0.41) forwards;
+    }
+
+    @keyframes ani {
+        from {
+            transform: scale(1) translate(0, 0);
+        }
+        to {
+            transform: scale(0.9) translate(-40%, 0);
+        }
+    }
+
+    @keyframes re-ani {
+        from {
+            transform: scale(0.9) translate(-40%, 0);
+        }
+        to {
+            transform: scale(1) translate(0, 0);
+        }
+    }
+
+    .main_header nav {
+        height: 32px;
+        display: block;
+        padding-top: 32px;
+        overflow: hidden;
+    }
+
+    .main_header nav .icon {
+        float: right;
+        margin-top: -32px;
+        width: 32px;
+        height: 32px;
+        background: url("../img/menu.png") no-repeat right center;
+    }
+}
+
+.full-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+.full-menu .main_menu {
+    width: 100%;
+    height: 100%;
+}
+
+.full-menu .main_menu a {
+    display: block;
+    overflow: hidden;
+    text-align: right;
+    font-size: 20px;
+    line-height: 40px;
+    padding-right: 10px;
+    color: dimgray;
+    text-decoration: none;
 }
