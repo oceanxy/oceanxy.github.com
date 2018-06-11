@@ -4342,11 +4342,29 @@ cite {
 
 .post .entry_content {
   padding-bottom: 2rem;
-  font-size: 16px;
+  font-family: "Microsoft YaHei UI";
+  color: #ab592b;
+}
+
+.post .entry_content a {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  height: 30px;
+  line-height: 30px;
+  color: #8e949a;
+  transition: all 500ms;
+  text-decoration: none;
+}
+
+.post .entry_content a:hover {
+  color: #2f6f9f;
+  font-size: 18px;
 }
 
 .post .entry_content span {
-  color: #999999;
+  color: #666666;
+  font-size: 12px;
 }
 
 .post_footer {
