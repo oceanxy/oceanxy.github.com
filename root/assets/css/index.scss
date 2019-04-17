@@ -1,0 +1,49 @@
+.main_menu a {
+  font-size: 1.5em;
+  transition: all 400ms;
+
+  a:hover {
+    transform: scale(1.1);
+    color: #c0334a;
+  }
+}
+
+.react-component-box {
+  color: #ffffff;
+  display: block;
+  margin-bottom: 100px;
+
+  a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    vertical-align: middle;
+    transition: all 400ms;
+    margin-right: 20px;
+    background: no-repeat center / 100% 100%;
+
+    &.demo {
+      width: 140px;
+      line-height: 36px;
+      font-size: 24px;
+      margin-right: 20px;
+      text-align: center;
+      font-weight: bolder;
+      color: #c0334a;
+    }
+
+    &.github {
+      background-image: url(../img/web_github_128px.png);
+    }
+
+    &.npm {
+      height: 20px;
+      width: 83px;
+      background-image: url(https://img.shields.io/npm/v/react-tabllist.svg?style=popout);
+    }
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
