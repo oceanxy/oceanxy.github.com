@@ -192,8 +192,8 @@ dfn {
  * Add the correct background and color in IE 9-.
  */
 mark {
-  background-color: #ff0;
-  color: #000;
+  background-color: #ffff00;
+  color: #000000;
 }
 
 /**
@@ -3571,54 +3571,54 @@ template {
 }
 
 .highlight .hll {
-  background-color: #ffc;
+  background-color: #ffffcc;
 }
 
 .highlight .c {
-  color: #999;
+  color: #999999;
 }
 
 /* Comment */
 .highlight .err {
-  color: #a00;
-  background-color: #faa;
+  color: #aa0000;
+  background-color: #ffaaaa;
 }
 
 /* Error */
 .highlight .k {
-  color: #069;
+  color: #006699;
 }
 
 /* Keyword */
 .highlight .o {
-  color: #555;
+  color: #555555;
 }
 
 /* Operator */
 .highlight .cm {
-  color: #09f;
+  color: #0099ff;
   font-style: italic;
 }
 
 /* Comment.Multiline */
 .highlight .cp {
-  color: #099;
+  color: #009999;
 }
 
 /* Comment.Preproc */
 .highlight .c1 {
-  color: #999;
+  color: #999999;
 }
 
 /* Comment.Single */
 .highlight .cs {
-  color: #999;
+  color: #999999;
 }
 
 /* Comment.Special */
 .highlight .gd {
-  background-color: #fcc;
-  border: 1px solid #c00;
+  background-color: #ffcccc;
+  border: 1px solid #cc0000;
 }
 
 /* Generic.Deleted */
@@ -3628,74 +3628,74 @@ template {
 
 /* Generic.Emph */
 .highlight .gr {
-  color: #f00;
+  color: #ff0000;
 }
 
 /* Generic.Error */
 .highlight .gh {
-  color: #030;
+  color: #003300;
 }
 
 /* Generic.Heading */
 .highlight .gi {
-  background-color: #cfc;
-  border: 1px solid #0c0;
+  background-color: #ccffcc;
+  border: 1px solid #00cc00;
 }
 
 /* Generic.Inserted */
 .highlight .go {
-  color: #aaa;
+  color: #aaaaaa;
 }
 
 /* Generic.Output */
 .highlight .gp {
-  color: #009;
+  color: #000099;
 }
 
 /* Generic.Prompt */
 /* Generic.Strong */
 .highlight .gu {
-  color: #030;
+  color: #003300;
 }
 
 /* Generic.Subheading */
 .highlight .gt {
-  color: #9c6;
+  color: #99cc66;
 }
 
 /* Generic.Traceback */
 .highlight .kc {
-  color: #069;
+  color: #006699;
 }
 
 /* Keyword.Constant */
 .highlight .kd {
-  color: #069;
+  color: #006699;
 }
 
 /* Keyword.Declaration */
 .highlight .kn {
-  color: #069;
+  color: #006699;
 }
 
 /* Keyword.Namespace */
 .highlight .kp {
-  color: #069;
+  color: #006699;
 }
 
 /* Keyword.Pseudo */
 .highlight .kr {
-  color: #069;
+  color: #006699;
 }
 
 /* Keyword.Reserved */
 .highlight .kt {
-  color: #078;
+  color: #007788;
 }
 
 /* Keyword.Type */
 .highlight .m {
-  color: #f60;
+  color: #ff6600;
 }
 
 /* Literal.Number */
@@ -3710,47 +3710,47 @@ template {
 
 /* Name.Attribute */
 .highlight .nb {
-  color: #366;
+  color: #336666;
 }
 
 /* Name.Builtin */
 .highlight .nc {
-  color: #0a8;
+  color: #00aa88;
 }
 
 /* Name.Class */
 .highlight .no {
-  color: #360;
+  color: #336600;
 }
 
 /* Name.Constant */
 .highlight .nd {
-  color: #99f;
+  color: #9999ff;
 }
 
 /* Name.Decorator */
 .highlight .ni {
-  color: #999;
+  color: #999999;
 }
 
 /* Name.Entity */
 .highlight .ne {
-  color: #c00;
+  color: #cc0000;
 }
 
 /* Name.Exception */
 .highlight .nf {
-  color: #c0f;
+  color: #cc00ff;
 }
 
 /* Name.Function */
 .highlight .nl {
-  color: #99f;
+  color: #9999ff;
 }
 
 /* Name.Label */
 .highlight .nn {
-  color: #0cf;
+  color: #00ccff;
 }
 
 /* Name.Namespace */
@@ -3760,125 +3760,125 @@ template {
 
 /* Name.Tag */
 .highlight .nv {
-  color: #033;
+  color: #003333;
 }
 
 /* Name.Variable */
 .highlight .ow {
-  color: #000;
+  color: #000000;
 }
 
 /* Operator.Word */
 .highlight .w {
-  color: #bbb;
+  color: #bbbbbb;
 }
 
 /* Text.Whitespace */
 .highlight .mf {
-  color: #f60;
+  color: #ff6600;
 }
 
 /* Literal.Number.Float */
 .highlight .mh {
-  color: #f60;
+  color: #ff6600;
 }
 
 /* Literal.Number.Hex */
 .highlight .mi {
-  color: #f60;
+  color: #ff6600;
 }
 
 /* Literal.Number.Integer */
 .highlight .mo {
-  color: #f60;
+  color: #ff6600;
 }
 
 /* Literal.Number.Oct */
 .highlight .sb {
-  color: #c30;
+  color: #cc3300;
 }
 
 /* Literal.String.Backtick */
 .highlight .sc {
-  color: #c30;
+  color: #cc3300;
 }
 
 /* Literal.String.Char */
 .highlight .sd {
-  color: #c30;
+  color: #cc3300;
   font-style: italic;
 }
 
 /* Literal.String.Doc */
 .highlight .s2 {
-  color: #c30;
+  color: #cc3300;
 }
 
 /* Literal.String.Double */
 .highlight .se {
-  color: #c30;
+  color: #cc3300;
 }
 
 /* Literal.String.Escape */
 .highlight .sh {
-  color: #c30;
+  color: #cc3300;
 }
 
 /* Literal.String.Heredoc */
 .highlight .si {
-  color: #a00;
+  color: #aa0000;
 }
 
 /* Literal.String.Interpol */
 .highlight .sx {
-  color: #c30;
+  color: #cc3300;
 }
 
 /* Literal.String.Other */
 .highlight .sr {
-  color: #3aa;
+  color: #33aaaa;
 }
 
 /* Literal.String.Regex */
 .highlight .s1 {
-  color: #c30;
+  color: #cc3300;
 }
 
 /* Literal.String.Single */
 .highlight .ss {
-  color: #fc3;
+  color: #ffcc33;
 }
 
 /* Literal.String.Symbol */
 .highlight .bp {
-  color: #366;
+  color: #336666;
 }
 
 /* Name.Builtin.Pseudo */
 .highlight .vc {
-  color: #033;
+  color: #003333;
 }
 
 /* Name.Variable.Class */
 .highlight .vg {
-  color: #033;
+  color: #003333;
 }
 
 /* Name.Variable.Global */
 .highlight .vi {
-  color: #033;
+  color: #003333;
 }
 
 /* Name.Variable.Instance */
 .highlight .il {
-  color: #f60;
+  color: #ff6600;
 }
 
 /* Literal.Number.Integer.Long */
 .css .o,
 .css .o + .nt,
 .css .nt + .nt {
-  color: #999;
+  color: #999999;
 }
 
 *, *::after, *::before {
@@ -4800,7 +4800,7 @@ cite {
   .chapters {
     padding: 2rem 0;
   }
-  
+
   .chapters .chapter {
     width: 49%;
     margin: 0 0.5% 1% 0.5%;
@@ -4811,58 +4811,58 @@ cite {
   #banner .content {
     padding: 7rem 0;
   }
-  
+
   #banner .content .title {
     font-size: 2.5rem;
     margin: 0 0 1rem 0;
   }
-  
+
   #banner .content .sub_title {
     font-size: 1.35rem;
     line-height: 2rem;
     font-style: italic;
   }
-  
+
   .chapters .chapter_inner .chapter_number {
     font-size: 0.7rem;
     margin: 0 0 0.5rem 0;
   }
-  
+
   .chapters .chapter_inner .chapter_title {
     font-size: 1.35rem;
     margin: 0 0 0.3rem 0;
   }
-  
+
   .pagination {
     padding: 2rem 0 6rem;
   }
-  
+
   .pagination a {
     padding: 0.5rem 0.8rem;
     margin-left: 1rem;
   }
-  
+
   .newsletter {
     padding: 2rem 0;
   }
-  
+
   .newsletter .newsletter_title {
     font-size: 1.75rem;
     margin: 0 0 0.8rem;
   }
-  
+
   .newsletter form {
     width: 550px;
   }
-  
+
   .newsletter form label {
     font-size: 1.1rem;
   }
-  
+
   .newsletter form .newsletter_box {
     padding: 2rem 0;
   }
-  
+
   .newsletter form .email_input {
     width: 100%;
     padding: 1rem 2.5rem;
@@ -4870,41 +4870,41 @@ cite {
     border-radius: 2.5rem;
     font-size: 0.9rem;
   }
-  
+
   .newsletter form .subscribe_btn {
     width: 110px;
     padding: 1.1rem;
     font-size: 0.7rem;
     top: 32px;
   }
-  
+
   .social_footer {
     padding: 2rem 0;
   }
-  
+
   .social_footer a {
     padding: 0.5rem 1rem;
     font-size: 1.35rem;
     -webkit-border-radius: 0.3rem;
     border-radius: 0.3rem;
   }
-  
+
   .copyright {
     padding: 1rem 0;
   }
-  
+
   .copyright p {
     font-size: 0.7rem;
   }
-  
+
   .post header .post_meta {
     font-size: 0.8rem;
   }
-  
+
   .post header .post_title {
     font-size: 1.6rem;
   }
-  
+
   .author .author_social span {
     font-size: 0.7rem;
   }
@@ -4914,25 +4914,25 @@ cite {
   .chapters {
     padding: 2rem 0;
   }
-  
+
   .chapters .chapter {
     width: 99%;
     margin: 0 0.5% 2% 0.5%;
   }
-  
+
   .copyright p {
     font-size: 0.6rem;
   }
-  
+
   blockquote {
     font-size: 1.1rem;
     padding-left: 1rem;
   }
-  
+
   blockquote p {
     font-size: 1.1rem;
   }
-  
+
   p {
     font-size: 1rem;
   }
@@ -4943,20 +4943,20 @@ cite {
     padding: 0.3rem 1rem;
     font-size: 0.5rem;
   }
-  
+
   .post header .post_title {
     font-size: 1.3rem;
   }
-  
+
   .post_footer .post_share {
     float: none;
     margin-bottom: 0.5rem;
   }
-  
+
   .post_footer .post_tag {
     float: none;
   }
-  
+
   .author .author_image {
     float: none;
     display: block;
@@ -4966,32 +4966,32 @@ cite {
     height: 100px;
     margin: 0 auto 1.75rem;
   }
-  
+
   .author .author_info {
     padding: 0;
     text-align: center;
   }
-  
+
   .author .author_info .author_title {
     font-size: 1.2rem;
     margin-top: 0;
   }
-  
+
   .author .author_social span {
     display: inline-block;
     padding-right: 0.5rem;
     margin: 0 0.5rem 0.5rem 0;
   }
-  
+
   .recent_box .recent_title {
     font-size: 1.3rem;
   }
-  
+
   .recent_box .recent_list .recent_item {
     width: 100%;
     margin: 0 0 0.5rem;
   }
-  
+
   .social_footer a {
     padding: 0.3rem 0.8rem;
     font-size: 1.10rem;
@@ -5003,7 +5003,7 @@ cite {
     padding: 0.1rem 0.8rem;
     font-size: 0.3rem;
   }
-  
+
   .post header .post_title {
     padding: 0.8rem;
     font-size: 1.2rem;
@@ -5014,11 +5014,11 @@ cite {
   .body.scale {
     animation: ani 1s cubic-bezier(0.1, 0.99, 0.43, 1) forwards;
   }
-  
+
   .body.re-scale {
     animation: re-ani 0.5s cubic-bezier(0.54, 0.13, 0.83, 0.4) forwards;
   }
-  
+
   @keyframes ani {
     from {
       transform: scale(1) translate(0, 0);
@@ -5027,7 +5027,7 @@ cite {
       transform: scale(0.9) translate(-40%, 0);
     }
   }
-  
+
   @keyframes re-ani {
     from {
       transform: scale(0.9) translate(-40%, 0);
@@ -5036,14 +5036,14 @@ cite {
       transform: scale(1) translate(0, 0);
     }
   }
-  
+
   .main_header nav {
     height: 32px;
     display: block;
     padding-top: 32px;
     overflow: hidden;
   }
-  
+
   .main_header nav .icon {
     float: right;
     margin-top: -32px;
@@ -5059,7 +5059,7 @@ cite {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #fff;
+  background: #ffffff;
 }
 
 .full-menu .main_menu {
@@ -5076,4 +5076,54 @@ cite {
   padding-right: 10px;
   color: dimgray;
   text-decoration: none;
+}
+
+.main_menu a {
+  font-size: 1.5em;
+  transition: all 400ms;
+}
+
+.main_menu a:hover {
+  transform: scale(1.1);
+  color: #c0334a;
+}
+
+.react-component-box {
+  color: #ffffff;
+  display: block;
+  margin-bottom: 100px;
+}
+
+.react-component a {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  vertical-align: middle;
+  transition: all 400ms;
+  margin-right: 20px;
+  background: no-repeat center / 100% 100%;
+}
+
+.react-component a.demo {
+  width: 140px;
+  line-height: 36px;
+  font-size: 24px;
+  margin-right: 20px;
+  text-align: center;
+  font-weight: bolder;
+  color: #c0334a;
+}
+
+.react-component a.github {
+  background-image: url(../img/web_github_128px.png);
+}
+
+.react-component a.npm {
+  height: 20px;
+  width: 83px;
+  background-image: url(https://img.shields.io/npm/v/react-tabllist.svg?style=popout);
+}
+
+.react-component a:hover {
+  transform: scale(1.1);
 }
