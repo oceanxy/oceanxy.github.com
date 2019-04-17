@@ -40,6 +40,16 @@ body {
   background: #262626;
 }
 
+.main_menu a {
+  font-size: 1.5em;
+  transition: all 400ms;
+}
+
+.main_menu a:hover {
+  transform: scale(1.1);
+  color: #c0334a;
+}
+
 /*---滚动条大小--*/
 ::-webkit-scrollbar,
 ::-webkit-scrollbar {
