@@ -4081,6 +4081,7 @@ cite {
   font-size: 0.6rem;
   text-transform: uppercase;
   margin: 0 0 0.3rem 0;
+  text-shadow: 0 0 20px #1c1c1c;
 }
 
 .chapters .chapter_inner .chapter_number::after {
@@ -4094,6 +4095,7 @@ cite {
   font-size: 1.25rem;
   font-weight: 200;
   margin: 0;
+  text-shadow: 0 0 20px #000000;
 }
 
 .newsletter {
